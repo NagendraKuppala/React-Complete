@@ -27,11 +27,11 @@ function App() {
     <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-            backgroundImage: `url('https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
+            backgroundImage: `url('https://blogs.worldbank.org/sites/default/files/styles/hero/public/2023-05/hero_1140x500_exchange_rates.jpg.webp?itok=9cgVtzMU')`,
         }}
     >
         <div className="w-full">
-            <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+            <div className="w-full max-w-md mx-auto border border-orange-300 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                 <form
                     onSubmit={(e) => {
                         e.preventDefault();
@@ -56,7 +56,7 @@ function App() {
                             className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-600 text-white px-2 py-0.5"
                             onClick={swap}
                         >
-                            swap
+                             ↓ ↑ 
                         </button>
                     </div>
                     <div className="w-full mt-1 mb-4">
@@ -71,7 +71,7 @@ function App() {
                             onAmountChange={(amount) => setConvertedAmount(amount)} />
                     </div>
                     <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg">
-                        Convert ${currencyFrom.toUpperCase()} to ${currencyTo.toUpperCase()}
+                        Convert  ${currencyFrom.toUpperCase()}  to  ${currencyTo.toUpperCase()}
                     </button>
                 </form>
             </div>
