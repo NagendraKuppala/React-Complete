@@ -1,4 +1,7 @@
-# useState, useEffect, useCallback, useRef
+# Currency API Link: `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${currency}.json`
+
+## custom Hooks
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
